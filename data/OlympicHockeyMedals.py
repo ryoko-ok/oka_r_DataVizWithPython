@@ -24,7 +24,7 @@ with open('data/mensmedals.csv') as csvfile:
 			elif row[7] == "Silver":
 				print("won a silver medal")
 				silvers.append(row[7])
-			elif row[7] == "bronze":
+			else: 
 				print("won a blonze medal")
 				bronzes.append(row[7])
 
